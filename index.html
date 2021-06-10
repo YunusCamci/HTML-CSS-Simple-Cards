@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simple Cards</title>
+
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+	body {
+		font-family: 'Roboto', sans-serif;
+		background-color: #f8f8f8;
+		margin:0;
+		padding:0;
+	}
+
+	/*Cards*/
+	.card{
+		width: 300px;
+		height: auto;
+		min-height: 50px;
+		background-color: #ffffff;
+		color: #242526;
+		border:1px solid #EDEDED;
+		border-radius: 8px;
+	}
+
+	/*Dark Card*/
+	.card-dark{
+		width: 300px;
+		height: auto;
+		min-height: 50px;
+		background-color: #242526;
+		color: #EDEDED;
+		border-radius: 8px;
+	}
+
+	/*General Card*/
+	.card-img{
+		width: 300px;
+		margin:0;
+		padding:0;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+	}
+	.card-title{
+		font-weight: 300;
+		margin:0;
+	}
+	.card-header{
+		padding-top:10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.card-body{
+		padding-left: 10px;
+		padding-right: 10px;
+		margin:0;
+		padding:5px;
+	}
+	</style>
+
+</head>
+<body>
+
+	<!-- White Card -->	
+	<div class="card" style="margin:10px; float:left;">
+		<img class="card-img" src="https://i.picsum.photos/id/271/3840/2160.jpg?hmac=gO_UwjzWtZTGYvGU-QgJ8bkmQtd_JE7kgU7AtDwqm90">
+		<div class="card-header">
+			<h3 class="card-title">Title</h3>
+		</div>
+		<div class="card-body">
+			<p>
+				Some quick example text to build on the card title and make up the bulk of the card's content.
+			</p>
+		</div>
+	</div>
+
+	<!-- Dark Card -->
+	<div class="card-dark" style="margin:10px; float:left;">
+		<img class="card-img" src="https://i.picsum.photos/id/271/3840/2160.jpg?hmac=gO_UwjzWtZTGYvGU-QgJ8bkmQtd_JE7kgU7AtDwqm90">
+		<div class="card-header">
+			<h3 class="card-title">Title</h3>
+		</div>
+		<div class="card-body">
+			<p>
+				Some quick example text to build on the card title and make up the bulk of the card's content.
+			</p>
+		</div>
+	</div>
+
+</body>
+</html>
